@@ -233,22 +233,23 @@ Try Again
 
 The project includes screenshots of the main application screens in the [`screenshot/`](./screenshot/) directory.
 
-### Home / Dashboard
+## Screenshots
 
-![Home Dashboard](./screenshot/home.png)
+### Home
+
+![Home](lld-practice-platform/screenshot/home.png)
 
 ### My Attempts
 
-![My Attempts](./screenshot/myattemp.png)
+![My Attempts](lld-practice-platform/screenshot/myattemp.png)
 
-### Problem Details
+### Problem
 
-![Problem](./screenshot/problem.png)
+![Problem](lld-practice-platform/screenshot/problem.png)
 
 ### Progress
 
-![Progress](./screenshot/progress.png)
-
+![Progress](lld-practice-platform/screenshot/progress.png)
 ## Technology Stack
 
 ### Frontend
