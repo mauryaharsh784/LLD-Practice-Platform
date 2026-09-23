@@ -231,10 +231,6 @@ Try Again
 
 ## Screenshots
 
-The project includes screenshots of the main application screens in the [`screenshot/`](./screenshot/) directory.
-
-## Screenshots
-
 ### Home
 
 ![Home](lld-practice-platform/screenshot/home.png)
