@@ -1,41 +1,50 @@
-# LLD Practice Platform
+# 🧩 LLD Practice Platform
 
-> A focused learning platform for practicing Low-Level Design through
-> structured problems, design submissions, actionable feedback, attempt
-> history, and repeated improvement.
+<p align="center">
+  <img src="./lld-practice-platform/client/public/logo.png" alt="LLD Practice Platform Logo" width="120" />
+</p>
 
-## Overview
+<h1 align="center">LLD Practice Platform</h1>
 
-LLD Practice Platform is an MVP built around the learning loop:
+<p align="center">
+  <strong>Practice. Design. Get Feedback. Improve.</strong>
+</p>
 
-**Choose Problem → Think / Design → Submit → Get Feedback → Review → Try
-Again**
+<p align="center">
+  A focused learning platform for practicing Low-Level Design through
+  structured problems, design submissions, actionable feedback,
+  attempt history, and repeated improvement.
+</p>
 
-The platform helps software engineering learners practice LLD problems
-such as Parking Lot, Library Management System, Splitwise, Elevator
-System, ATM, and similar object-oriented design problems.
+<p align="center">
+  <a href="https://lld-practice-platform-t5f1-two.vercel.app">
+    🚀 <strong>Live Demo</strong>
+  </a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://lld-practice-platform-api-ce9w.onrender.com/api/health">
+    ⚙️ <strong>API Health</strong>
+  </a>
+</p>
 
-The product focuses on the learner's actual design process rather than
-only asking for code.
+<p align="center">
+  Built with ❤️ by <strong>Harsh Vardhan Maurya</strong>
+</p>
 
-## Problem Statement
+<p align="center">
+  React • TypeScript • Node.js • Express • MongoDB • AI Evaluation
+</p>
 
-LLD learners often create designs without knowing whether their solution
-is good, what they missed, or how to improve it.
+---
 
-The platform addresses this by providing:
+## 📌 Overview
 
--   Clear LLD problem requirements
--   A structured design workspace
--   Class and relationship modeling
--   Submission and evaluation
--   Dimension-wise feedback
--   Attempt history
--   Easy retry and iteration
+**LLD Practice Platform** is an MVP designed to help software
+engineering learners practice **Low-Level Design** through a structured
+learning workflow.
 
-## Core Learning Loop
+The platform is built around a simple learning loop:
 
-``` text
+```text
 Choose Problem
       ↓
 Think / Design
@@ -48,95 +57,165 @@ Review
       ↓
 Try Again
 ```
-----
-## Live Demo
 
-The LLD Practice Platform is deployed and available online.
-
-- **Live Application:** https://lld-practice-platform-t5f1-two.vercel.app
-- **Backend API:** https://lld-practice-platform-api-ce9w.onrender.com
-- **Health Check:** https://lld-practice-platform-api-ce9w.onrender.com/api/health
-
+Instead of focusing only on writing code, the platform focuses on the
+learner's **design thinking, object modeling, responsibilities,
+relationships, extensibility, and reasoning**.
 
 ---
 
-## MVP Features
+## 🎯 Problem Statement
 
-### Problem Library
+LLD learners often create designs without knowing:
+
+- Whether their design is structured correctly
+- Whether responsibilities are assigned properly
+- Which concepts they missed
+- Whether their classes are well modeled
+- How their design can be improved
+- Whether their second attempt is better than their first attempt
+
+The platform addresses these problems through:
+
+- Clear LLD problem requirements
+- Structured design workspace
+- Class and relationship modeling
+- Design submission
+- Dimension-wise evaluation
+- Actionable feedback
+- Attempt history
+- Retry and iteration
+- Progress tracking
+
+---
+
+## 🚀 Live Demo
+
+The LLD Practice Platform is deployed and available online.
+
+| Service | Link |
+|---|---|
+| 🌐 Frontend | https://lld-practice-platform-t5f1-two.vercel.app |
+| ⚙️ Backend API | https://lld-practice-platform-api-ce9w.onrender.com |
+| ❤️ API Health | https://lld-practice-platform-api-ce9w.onrender.com/api/health |
+
+### Quick Start
+
+👉 **[Open Live Application](https://lld-practice-platform-t5f1-two.vercel.app)**
+
+---
+
+## ✨ Core Features
+
+### 📚 Problem Library
 
 Learners can browse LLD problems with:
 
--   Title
--   Description
--   Difficulty
--   Estimated time
--   Tags
--   Practice status
+- Title
+- Description
+- Difficulty
+- Estimated time
+- Tags
+- Practice status
+- Search
+- Filtering
 
-The library supports search and filtering.
+---
 
-### Problem Details
+### 📖 Problem Details
 
 Each problem provides:
 
--   Problem statement
--   Functional requirements
--   Assumptions
--   Difficulty
--   Estimated time
--   Expected design areas
+- Problem statement
+- Functional requirements
+- Assumptions
+- Difficulty
+- Estimated time
+- Expected design areas
+- Relevant tags
 
-### Design Workspace
+This helps learners understand the problem before starting the design.
+
+---
+
+### 🧠 Structured Design Workspace
+
+Instead of using one large text box, learners can structure their
+solution into multiple sections.
 
 Learners can submit:
 
--   Requirements and assumptions
--   Classes
--   Attributes
--   Methods
--   Responsibilities
--   Relationships
--   Design explanation
--   Optional code/pseudocode
+- Requirements
+- Assumptions
+- Classes
+- Attributes
+- Methods
+- Responsibilities
+- Relationships
+- Design explanation
+- Optional code
+- Optional pseudocode
 
-The workspace supports saving drafts before submission.
+The workspace also supports **saving drafts before submission**.
 
-### Structured Evaluation
+---
 
-Submissions can be evaluated on:
+### 📝 Structured Evaluation
 
-  Dimension                     Score
-  --------------------------- -------
-  Requirement Understanding       /10
-  Object/Class Modeling           /10
-  Responsibility Assignment       /10
-  Encapsulation                   /10
-  Relationships                   /10
-  Extensibility                   /10
-  Design Patterns                 /10
-  Simplicity                      /10
-  Code/Pseudocode Quality         /10
-  Design Reasoning                /10
+Each submission can be evaluated across multiple LLD dimensions.
 
-The result includes:
+| Dimension | Score |
+|---|---:|
+| Requirement Understanding | /10 |
+| Object/Class Modeling | /10 |
+| Responsibility Assignment | /10 |
+| Encapsulation | /10 |
+| Relationships | /10 |
+| Extensibility | /10 |
+| Design Patterns | /10 |
+| Simplicity | /10 |
+| Code/Pseudocode Quality | /10 |
+| Design Reasoning | /10 |
 
--   Overall score
--   Dimension-wise scores
--   Strengths
--   Improvements
--   Missing concepts
--   Recommended next steps
+The evaluation provides:
 
-### AI Evaluation
+- Overall score
+- Dimension-wise scores
+- Strengths
+- Improvements
+- Missing concepts
+- Recommended next steps
 
-The application can integrate Claude or OpenAI for evaluation.
+---
 
-The evaluator receives the problem requirements, learner submission, and
-rubric and returns structured feedback.
+## 🤖 AI Evaluation
 
-A strict JSON response is expected, for example:
+The platform is designed with an abstraction layer for AI-powered
+evaluation.
 
-``` json
+It can integrate with:
+
+- Claude API
+- OpenAI API
+- Mock evaluator
+
+The evaluator receives:
+
+```text
+Problem Requirements
+        +
+Learner Submission
+        +
+Evaluation Rubric
+        ↓
+AI / Mock Evaluator
+        ↓
+Structured JSON Feedback
+```
+
+Example response:
+
+```json
 {
   "overallScore": 78,
   "dimensions": [
@@ -158,69 +237,140 @@ A strict JSON response is expected, for example:
 }
 ```
 
-### Mock Evaluation
+---
 
-The platform works without an external AI key.
+## 🧪 Mock Evaluation
 
-Use:
+The application can work without an external AI API key.
 
-``` env
+Set:
+
+```env
 AI_PROVIDER=mock
 ```
 
-This provides deterministic demo feedback while keeping the architecture
-ready for real AI providers.
+The mock evaluator provides deterministic feedback for demonstrations
+and development.
 
-### Attempt History
+This allows the product to remain usable even when no external AI
+provider is configured.
+
+---
+
+## 🔄 Attempt History
 
 Every submission is stored as an attempt.
 
 Learners can review:
 
--   Problem
--   Attempt number
--   Date
--   Score
--   Submission
--   Evaluation
--   Improvement areas
+- Problem
+- Attempt number
+- Date
+- Score
+- Submission
+- Evaluation
+- Improvement areas
 
-They can start another attempt from previous feedback.
+Learners can also start another attempt after reviewing feedback.
 
-### Dashboard
+This makes the platform focused on **iteration instead of one-time
+submission**.
 
-The dashboard can show:
+---
 
--   Problems attempted
--   Problems completed
--   Total attempts
--   Average score
--   Best score
--   Recent activity
+## 📊 Dashboard
 
-Keep analytics focused on useful learning information.
+The dashboard provides useful learning information such as:
 
-## Example Problems
+- Problems attempted
+- Problems completed
+- Total attempts
+- Average score
+- Best score
+- Recent activity
+- Recommended problems
 
-The seed data should include realistic problems such as:
+The goal is to show meaningful learning progress without unnecessary
+analytics.
 
--   Parking Lot
--   Library Management System
--   Splitwise
--   Tic Tac Toe
--   Elevator System
--   Snake and Ladder
--   BookMyShow
--   ATM
--   Ride Sharing System
--   Chess Game
+---
 
-Each problem should contain requirements, assumptions, expected design
-areas, difficulty, and tags.
+## 📈 Progress Tracking
 
-## User Flow
+The progress section helps learners understand their practice history.
 
-``` text
+It can show:
+
+- Problem-wise performance
+- Latest score
+- Best score
+- Attempt count
+- Completed problems
+- Improvement over time
+
+---
+
+## 🔁 Core Learning Loop
+
+```text
+┌─────────────────┐
+│  Choose Problem │
+└────────┬────────┘
+         ↓
+┌─────────────────┐
+│  Think / Design │
+└────────┬────────┘
+         ↓
+┌─────────────────┐
+│ Submit Solution │
+└────────┬────────┘
+         ↓
+┌─────────────────┐
+│  Get Feedback   │
+└────────┬────────┘
+         ↓
+┌─────────────────┐
+│      Review     │
+└────────┬────────┘
+         ↓
+┌─────────────────┐
+│    Try Again    │
+└────────┬────────┘
+         │
+         └──────────────→ Improve
+```
+
+---
+
+## 📚 Example Problems
+
+The seed data includes realistic LLD problems such as:
+
+- 🅿️ Parking Lot
+- 📚 Library Management System
+- 💰 Splitwise
+- ❌⭕ Tic Tac Toe
+- 🛗 Elevator System
+- 🐍 Snake and Ladder
+- 🎬 BookMyShow
+- 🏧 ATM
+- 🚗 Ride Sharing System
+- ♟️ Chess Game
+
+Each problem can contain:
+
+- Requirements
+- Assumptions
+- Expected design areas
+- Difficulty
+- Estimated time
+- Tags
+
+---
+
+## 👨‍💻 User Flow
+
+```text
 Dashboard
    ↓
 Problem Library
@@ -240,84 +390,123 @@ Attempt History
 Try Again
 ```
 
-## Screenshots
+---
 
-### Home
+# 📸 Screenshots
+
+## 🏠 Home
 
 ![Home](./lld-practice-platform/screenshot/home.png)
 
-### My Attempts
+---
+
+## 📝 My Attempts
 
 ![My Attempts](./lld-practice-platform/screenshot/myattemp.png)
 
-### Problem
+---
+
+## 📖 Problem Details
 
 ![Problem](./lld-practice-platform/screenshot/problem.png)
 
-### Progress
+---
+
+## 📊 Progress
 
 ![Progress](./lld-practice-platform/screenshot/progress.png)
-## Technology Stack
 
-### Frontend
+---
 
--   React
--   TypeScript
--   Vite
--   Tailwind CSS
--   React Router
--   TanStack Query
+# 🛠️ Technology Stack
 
-### Backend
+## Frontend
 
--   Node.js
--   Express.js
--   TypeScript
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router
+- TanStack Query
 
-### Database
+## Backend
 
--   MongoDB
--   Mongoose
+- Node.js
+- Express.js
+- TypeScript
 
-### AI
+## Database
 
--   Claude API and/or OpenAI API
--   Mock evaluation fallback
+- MongoDB
+- Mongoose
 
-## Architecture
+## AI
 
-``` text
-React + TypeScript
-        │
-        │ REST API
-        ▼
-Express + TypeScript
-        │
-        ├── Problem Service
-        ├── Attempt Service
-        ├── Evaluation Service
-        │
-        ▼
-MongoDB + Mongoose
-        │
-        ▼
-Claude / OpenAI / Mock Evaluator
+- Claude API
+- OpenAI API
+- Mock Evaluation
+
+## Deployment
+
+- Vercel
+- Render
+- MongoDB Atlas
+
+---
+
+# 🏗️ Architecture
+
+```text
+                    ┌──────────────────────┐
+                    │      React App       │
+                    │   TypeScript + Vite  │
+                    └──────────┬───────────┘
+                               │
+                               │ REST API
+                               ↓
+                    ┌──────────────────────┐
+                    │   Express Backend    │
+                    │      TypeScript      │
+                    └──────────┬───────────┘
+                               │
+              ┌────────────────┼────────────────┐
+              ↓                ↓                ↓
+       ┌─────────────┐  ┌─────────────┐  ┌──────────────┐
+       │   Problem   │  │   Attempt   │  │  Evaluation  │
+       │   Service   │  │   Service   │  │   Service    │
+       └─────────────┘  └─────────────┘  └──────┬───────┘
+                                                │
+                                                ↓
+                                      ┌──────────────────┐
+                                      │ AI / Mock        │
+                                      │ Evaluator        │
+                                      └──────────────────┘
+
+                               │
+                               ↓
+
+                    ┌──────────────────────┐
+                    │       MongoDB        │
+                    │      Mongoose        │
+                    └──────────────────────┘
 ```
 
-## Main Data Models
+---
 
-### User
+# 🗂️ Main Data Models
 
-``` text
+## User
+
+```text
 id
 name
 email
 createdAt
 ```
 
-### Problem
+## Problem
 
-``` text
+```text
 id
 title
 slug
@@ -331,9 +520,9 @@ expectedAreas
 createdAt
 ```
 
-### Attempt
+## Attempt
 
-``` text
+```text
 id
 userId
 problemId
@@ -343,9 +532,9 @@ status
 createdAt
 ```
 
-### Evaluation
+## Evaluation
 
-``` text
+```text
 id
 attemptId
 overallScore
@@ -357,41 +546,49 @@ nextSteps
 createdAt
 ```
 
-## API Design
+---
 
-### Problems
+# 🔌 API Design
 
-``` http
+## Problems
+
+```http
 GET /api/problems
 GET /api/problems/:id
 ```
 
-### Attempts
+## Attempts
 
-``` http
+```http
 POST /api/attempts
 GET /api/attempts
 GET /api/attempts/:id
 GET /api/problems/:id/attempts
 ```
 
-### Evaluation
+## Evaluation
 
-``` http
+```http
 POST /api/attempts/:id/evaluate
 ```
 
-### Dashboard
+## Dashboard
 
-``` http
+```http
 GET /api/dashboard
 ```
 
-## Suggested Project Structure
+---
 
-``` text
+# 📁 Project Structure
+
+```text
 lld-practice-platform/
+│
 ├── client/
+│   ├── public/
+│   │   └── logo.png
+│   │
 │   ├── src/
 │   │   ├── components/
 │   │   ├── pages/
@@ -401,7 +598,9 @@ lld-practice-platform/
 │   │   ├── types/
 │   │   ├── utils/
 │   │   └── features/
+│   │
 │   └── package.json
+│
 ├── server/
 │   ├── src/
 │   │   ├── controllers/
@@ -410,21 +609,35 @@ lld-practice-platform/
 │   │   ├── services/
 │   │   ├── middleware/
 │   │   └── validators/
-│   └── package.json
+│   │
+│   ├── package.json
+│   └── .env.example
+│
 ├── docs/
 │   └── PRODUCT_DECISIONS.md
-├── .env.example
+│
+├── screenshot/
+│   ├── home.png
+│   ├── myattemp.png
+│   ├── problem.png
+│   └── progress.png
+│
+├── .gitignore
 ├── README.md
 └── package.json
 ```
 
-## Environment Variables
+---
+
+# ⚙️ Environment Variables
 
 Example:
 
-``` env
+```env
 NODE_ENV=development
-PORT=5000
+
+PORT=4000
+
 MONGODB_URI=mongodb://localhost:27017/lld-practice-platform
 
 AI_PROVIDER=mock
@@ -433,61 +646,174 @@ ANTHROPIC_API_KEY=
 OPENAI_API_KEY=
 ```
 
-## Running Locally
+> Never commit real API keys, database passwords, or secrets to GitHub.
 
-``` bash
+---
+
+# 💻 Running Locally
+
+## 1. Clone Repository
+
+```bash
 git clone <repository-url>
 cd lld-practice-platform
+```
+
+## 2. Install Dependencies
+
+```bash
 npm install
 ```
 
-Create `.env` from `.env.example`.
+Install client dependencies:
 
-Start MongoDB, then seed sample data if the project provides a seed
-command:
-
-``` bash
-npm run seed
+```bash
+cd client
+npm install
 ```
 
-Start the backend:
+Install server dependencies:
 
-``` bash
+```bash
+cd ../server
+npm install
+```
+
+---
+
+## 3. Configure Environment Variables
+
+Create `.env` inside the server directory.
+
+Example:
+
+```env
+PORT=4000
+DB_MODE=mongo
+MONGODB_URI=mongodb://localhost:27017/lld-practice-platform
+
+AI_PROVIDER=mock
+
+ANTHROPIC_API_KEY=
+OPENAI_API_KEY=
+
+SEED_SAMPLE_DATA=true
+```
+
+---
+
+## 4. Start Backend
+
+From the `server` directory:
+
+```bash
 npm run dev
 ```
 
-Start the frontend:
+Backend will run on:
 
-``` bash
+```text
+http://localhost:4000
+```
+
+---
+
+## 5. Start Frontend
+
+Open another terminal:
+
+```bash
+cd client
 npm run dev
 ```
 
-Open the URL shown by Vite.
+Vite will provide the frontend URL.
 
-## Demo Scenario
+Usually:
 
-A complete demo can be performed using **Parking Lot**:
+```text
+http://localhost:5173
+```
 
-1.  Open Dashboard.
-2.  Open Problems.
-3.  Select Parking Lot.
-4.  Read the requirements.
-5.  Start Practice.
-6.  Add requirements and assumptions.
-7.  Add classes and responsibilities.
-8.  Add relationships.
-9.  Explain the design.
-10. Save draft.
-11. Submit.
-12. Receive evaluation.
-13. Review strengths and improvements.
-14. Click Try Again.
-15. Submit a second attempt.
-16. Review both attempts in history.
+---
 
-## Product Decisions
+# 🧪 Demo Scenario
 
-### Why structured submission?
+A complete demo can be performed using **Parking Lot**.
+
+### Step 1
+
+Open the Dashboard.
+
+### Step 2
+
+Open the Problem Library.
+
+### Step 3
+
+Select **Parking Lot**.
+
+### Step 4
+
+Read the requirements and assumptions.
+
+### Step 5
+
+Start the practice session.
+
+### Step 6
+
+Add:
+
+- Requirements
+- Assumptions
+- Classes
+- Responsibilities
+- Relationships
+
+### Step 7
+
+Explain the design.
+
+### Step 8
+
+Save the design as a draft.
+
+### Step 9
+
+Submit the solution.
+
+### Step 10
+
+Receive structured evaluation.
+
+### Step 11
+
+Review:
+
+- Score
+- Strengths
+- Improvements
+- Missing concepts
+- Next steps
+
+### Step 12
+
+Click **Try Again**.
+
+### Step 13
+
+Create a second attempt.
+
+### Step 14
+
+Compare both attempts in history.
+
+---
+
+# 🧠 Product Decisions
+
+## Why Structured Submission?
 
 A single large text box makes it difficult to evaluate individual LLD
 dimensions.
@@ -495,83 +821,125 @@ dimensions.
 Structured fields make the learner's thinking easier to understand and
 allow more targeted feedback.
 
-### Why feedback instead of only a score?
+---
+
+## Why Feedback Instead of Only a Score?
 
 A score alone does not explain how the learner should improve.
 
 The platform therefore focuses on:
 
-**Score + Strengths + Problems + Missing Concepts + Next Steps**
+```text
+Score
+  +
+Strengths
+  +
+Problems
+  +
+Missing Concepts
+  +
+Next Steps
+```
 
-### Why attempt history?
+---
 
-LLD improves through iteration. Previous attempts help learners
-understand whether their design decisions are improving.
+## Why Attempt History?
 
-### Why mock AI?
+LLD improves through iteration.
 
-The product should remain usable without an external API key. Mock
-evaluation makes the MVP easy to demonstrate while keeping the
+Previous attempts help learners understand whether their design
+decisions are improving.
+
+---
+
+## Why Mock AI?
+
+The product should remain usable without an external API key.
+
+Mock evaluation makes the MVP easy to demonstrate while keeping the
 architecture ready for real AI providers.
 
-### Why avoid over-engineering?
+---
+
+## Why Avoid Over-Engineering?
 
 The assignment focuses on product thinking and the learner workflow.
-Kubernetes, microservices, complex real-time systems, and unnecessary
-infrastructure do not directly improve the core learning loop.
 
-## Evaluation Philosophy
+Technologies such as:
+
+- Kubernetes
+- Microservices
+- Complex real-time systems
+- Unnecessary infrastructure
+
+do not directly improve the core learning loop for this MVP.
+
+---
+
+# 🎯 Evaluation Philosophy
 
 The evaluator should consider:
 
--   Requirement understanding
--   Appropriate abstraction
--   Class modeling
--   Responsibility assignment
--   Encapsulation
--   Relationships
--   Extensibility
--   Design patterns
--   Simplicity
--   Design reasoning
+- Requirement understanding
+- Appropriate abstraction
+- Class modeling
+- Responsibility assignment
+- Encapsulation
+- Relationships
+- Extensibility
+- Design patterns
+- Simplicity
+- Design reasoning
 
 Feedback should explain **why** a change may improve the design and
 provide a concrete direction for improvement.
 
-## Error Handling
+Example:
+
+> Instead of placing parking allocation and pricing logic inside
+> `ParkingLot`, consider separating these responsibilities into
+> dedicated components.
+
+---
+
+# 🛡️ Error Handling
 
 The application should gracefully handle:
 
--   Invalid submissions
--   Missing required fields
--   API failures
--   Database failures
--   Missing problems
--   AI provider failures
--   Invalid AI responses
--   Empty states
+- Invalid submissions
+- Missing required fields
+- API failures
+- Database failures
+- Missing problems
+- AI provider failures
+- Invalid AI responses
+- Empty states
 
 Users should receive understandable messages instead of raw stack
 traces.
 
-## Loading States
+---
 
-Important operations should show clear status:
+# ⏳ Loading States
 
-``` text
+Important operations should show clear status messages:
+
+```text
 Loading problems...
 Saving draft...
 Submitting...
 Evaluating your design...
 ```
 
-## Design Principles
+---
 
-### Focus on the learner
+# 🎨 Design Principles
+
+## Focus on the Learner
 
 Every feature should help the learner practice or understand LLD better.
 
-### Feedback should be actionable
+## Make Feedback Actionable
 
 Avoid generic feedback such as:
 
@@ -583,73 +951,142 @@ Prefer feedback such as:
 > separating these responsibilities so each component has a clearer
 > purpose.
 
-### Keep the MVP narrow
+## Keep the MVP Narrow
 
-The product should demonstrate the core learning loop rather than
+The product should demonstrate the core learning loop instead of
 attempting to solve every possible learning problem.
 
-### Make iteration easy
+## Make Iteration Easy
 
 The learner should be able to move from feedback directly into another
 attempt.
 
-## Intentionally Out of Scope
+---
+
+# 🚫 Intentionally Out of Scope
 
 The MVP does not require:
 
--   Kubernetes
--   Microservices
--   Complex authentication
--   Real-time collaboration
--   Video courses
--   Live instructor sessions
--   Large-scale social features
--   Advanced gamification
--   Complex recommendation engines
--   Production-scale distributed infrastructure
+- Kubernetes
+- Microservices
+- Complex authentication
+- Real-time collaboration
+- Video courses
+- Live instructor sessions
+- Large-scale social features
+- Advanced gamification
+- Complex recommendation engines
+- Production-scale distributed infrastructure
 
-## Future Improvements
+---
 
-Possible future improvements:
+# 🔮 Future Improvements
 
--   Interactive UML/class diagram editor
--   Automatic diagram analysis
--   Personalized problem recommendations
--   Adaptive difficulty
--   Peer review
--   Instructor review
--   Code execution
--   Deeper AI evaluation
--   Learning streaks
--   Topic-level mastery
--   Personalized revision plans
--   Collaborative design sessions
--   Interview simulation mode
+Possible future improvements include:
 
-## Success Criteria
+- Interactive UML/Class Diagram Editor
+- Automatic Diagram Analysis
+- Personalized Problem Recommendations
+- Adaptive Difficulty
+- Peer Review
+- Instructor Review
+- Code Execution
+- Deeper AI Evaluation
+- Learning Streaks
+- Topic-Level Mastery
+- Personalized Revision Plans
+- Collaborative Design Sessions
+- Interview Simulation Mode
+
+---
+
+# ✅ Success Criteria
 
 The MVP is successful when a learner can:
 
-1.  Select an LLD problem.
-2.  Understand the requirements.
-3.  Create a structured design.
-4.  Save or submit it.
-5.  Receive meaningful evaluation.
-6.  Review strengths and weaknesses.
-7.  Open previous attempts.
-8.  Start another attempt.
-9.  Use feedback to improve.
+1. Select an LLD problem.
+2. Understand the requirements.
+3. Create a structured design.
+4. Save or submit the design.
+5. Receive meaningful evaluation.
+6. Review strengths and weaknesses.
+7. Open previous attempts.
+8. Start another attempt.
+9. Use feedback to improve.
 
-## Conclusion
+---
 
-LLD Practice Platform is built around one simple idea:
+# 🏆 Project Highlights
 
-> **LLD improves through practice, feedback, and iteration.**
+```text
+✓ Structured LLD Practice
+✓ Problem Library
+✓ Design Workspace
+✓ Class & Relationship Modeling
+✓ Draft Saving
+✓ Submission Workflow
+✓ AI / Mock Evaluation
+✓ Dimension-wise Feedback
+✓ Attempt History
+✓ Progress Dashboard
+✓ Retry Workflow
+✓ REST API
+✓ MongoDB Persistence
+✓ Vercel Deployment
+✓ Render Backend
+```
 
-The platform turns that idea into a focused experience where learners
-can:
+---
 
-**Practice → Submit → Learn → Improve → Try Again**
+# 👨‍💻 Author
 
-The MVP prioritizes the learner workflow and quality of feedback over
-unnecessary technical complexity.
+<p align="center">
+  <strong>Harsh Vardhan Maurya</strong>
+</p>
+
+<p align="center">
+  B.Tech Computer Science & Engineering
+</p>
+
+<p align="center">
+  Full Stack Developer • AI Developer • LLD Enthusiast
+</p>
+
+<p align="center">
+  <strong>Building practical software and learning through design.</strong>
+</p>
+
+---
+
+# ⭐ Project Philosophy
+
+LLD is not learned by reading class diagrams alone.
+
+It improves through:
+
+```text
+Practice
+   ↓
+Design
+   ↓
+Feedback
+   ↓
+Review
+   ↓
+Improvement
+   ↓
+Practice Again
+```
+
+> **LLD Practice Platform turns this loop into a practical learning
+> experience.**
+
+---
+
+<p align="center">
+  Made with ❤️ by <strong>Harsh Vardhan Maurya</strong>
+</p>
+
+<p align="center">
+  <strong>Practice → Submit → Learn → Improve → Try Again</strong>
+</p>
