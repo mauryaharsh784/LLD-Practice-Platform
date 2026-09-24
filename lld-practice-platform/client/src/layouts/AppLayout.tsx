@@ -72,16 +72,18 @@ export function AppLayout() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-ink-800/10 bg-white py-4">
-        <div className="mx-auto max-w-6xl px-6 text-center">
-          <p className="text-sm text-ink-500">
-            Built by{" "}
-            <span className="font-medium text-ink-800">
-              Harsh Vardhan Maurya
-            </span>
-          </p>
-        </div>
-      </footer>
+<footer className="border-t border-ink-800/10 bg-white py-4">
+  <div className="mx-auto max-w-6xl px-6 text-center">
+    <p className="text-sm text-ink-500">
+      Built with{" "}
+      <span className="text-red-500">❤️</span>{" "}
+      by{" "}
+      <span className="font-semibold text-ink-800">
+        Harsh Vardhan Maurya
+      </span>
+    </p>
+  </div>
+</footer>
     </div>
   );
 }
