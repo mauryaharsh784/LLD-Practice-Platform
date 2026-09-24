@@ -18,30 +18,49 @@ export function ProblemsPage() {
     queryFn: () => api.listProblems({ q, difficulty, tag, status }),
   });
 
-  const allTags = Array.from(new Set((data?.problems ?? []).flatMap((p) => p.tags))).sort();
+  const problems = data?.problems ?? [];
+
+  const allTags = Array.from(
+    new Set(problems.flatMap((p) => p.tags ?? []))
+  ).sort();
 
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-xl font-semibold text-ink-800">Problem Library</h1>
-        <p className="mt-1 text-sm text-ink-800/60">Choose a problem, then design → submit → get feedback → retry.</p>
+        <h1 className="text-xl font-semibold text-ink-800">
+          Problem Library
+        </h1>
+
+        <p className="mt-1 text-sm text-ink-800/60">
+          Choose a problem, then design → submit → get feedback → retry.
+        </p>
       </div>
 
       <div className="flex flex-wrap gap-3">
         <div className="min-w-[220px] flex-1">
-          <Input placeholder="Search problems..." value={q} onChange={(e) => setQ(e.target.value)} />
+          <Input
+            placeholder="Search problems..."
+            value={q}
+            onChange={(e) => setQ(e.target.value)}
+          />
         </div>
+
         <div className="w-40">
-          <Select value={difficulty} onChange={(e) => setDifficulty(e.target.value)}>
+          <Select
+            value={difficulty}
+            onChange={(e) => setDifficulty(e.target.value)}
+          >
             <option value="">All difficulties</option>
             <option value="Easy">Easy</option>
             <option value="Medium">Medium</option>
             <option value="Hard">Hard</option>
           </Select>
         </div>
+
         <div className="w-48">
           <Select value={tag} onChange={(e) => setTag(e.target.value)}>
             <option value="">All topics</option>
+
             {allTags.map((t) => (
               <option key={t} value={t}>
                 {t}
@@ -49,6 +68,7 @@ export function ProblemsPage() {
             ))}
           </Select>
         </div>
+
         <div className="w-44">
           <Select value={status} onChange={(e) => setStatus(e.target.value)}>
             <option value="">Any status</option>
@@ -60,13 +80,24 @@ export function ProblemsPage() {
       </div>
 
       {isLoading && <LoadingState label="Loading problems..." />}
-      {isError && <ErrorState message="Couldn't load the problem library." onRetry={() => refetch()} />}
-      {data && data.problems.length === 0 && (
-        <EmptyState title="No problems match" description="Try clearing a filter or searching a different term." />
+
+      {isError && (
+        <ErrorState
+          message="Couldn't load the problem library."
+          onRetry={() => refetch()}
+        />
       )}
-      {data && data.problems.length > 0 && (
+
+      {!isLoading && !isError && problems.length === 0 && (
+        <EmptyState
+          title="No problems match"
+          description="Try clearing a filter or searching a different term."
+        />
+      )}
+
+      {!isLoading && !isError && problems.length > 0 && (
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {data.problems.map((p) => (
+          {problems.map((p) => (
             <ProblemCard key={p.id} problem={p} />
           ))}
         </div>
