@@ -233,19 +233,19 @@ Try Again
 
 ### Home
 
-![Home](lld-practice-platform/screenshot/home.png)
+![Home](./lld-practice-platform/screenshot/home.png)
 
 ### My Attempts
 
-![My Attempts](lld-practice-platform/screenshot/myattemp.png)
+![My Attempts](./lld-practice-platform/screenshot/myattemp.png)
 
 ### Problem
 
-![Problem](lld-practice-platform/screenshot/problem.png)
+![Problem](./lld-practice-platform/screenshot/problem.png)
 
 ### Progress
 
-![Progress](lld-practice-platform/screenshot/progress.png)
+![Progress](./lld-practice-platform/screenshot/progress.png)
 ## Technology Stack
 
 ### Frontend
