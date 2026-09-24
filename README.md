@@ -48,6 +48,17 @@ Review
       ↓
 Try Again
 ```
+----
+## Live Demo
+
+The LLD Practice Platform is deployed and available online.
+
+- **Live Application:** https://lld-practice-platform-t5f1-two.vercel.app
+- **Backend API:** https://lld-practice-platform-api-ce9w.onrender.com
+- **Health Check:** https://lld-practice-platform-api-ce9w.onrender.com/api/health
+
+
+---
 
 ## MVP Features
 
