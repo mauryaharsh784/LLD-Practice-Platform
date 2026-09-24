@@ -1,9 +1,5 @@
 # 🧩 LLD Practice Platform
 
-<p align="center">
-  <img src="./lld-practice-platform/client/public/logo.png" alt="LLD Practice Platform Logo" width="120" />
-</p>
-
 <h1 align="center">LLD Practice Platform</h1>
 
 <p align="center">
